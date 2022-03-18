@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&amp;display=swap');
+@import url('https://fonts.googleapis.com/css2?семья=Overpass+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Press+Start+2P&display=swap');
+
+body{
+    margin: 0;
+    font-family: Open Sans;
+    color:black;
+    background-color: #D5FFEF;
+}
+
+h1, p{
+    margin: 0;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    margin:0px;
+    font-size: 18px;
+}
+.v{
+    font-size: 25px;
+}
+
+h1{
+    font-size: 48px;
+    margin-bottom: 60px;
+}
+
+/* header */
+
+header{
+    padding-left: 70px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    
+}
+.menu{
+    border: 2px groove;
+    padding: 3px;
+    margin-right: 60px;
+}
+.menu{
+    text-decoration: none;
+    color: #00acee; 
+    transition: all 1s;
+}
+
+.menu:visited{
+    color:#FF4A84;
+}
+
+.header-inner{
+    display: flex;
+}
+
+.logoImg{
+    width: 180px;
+    height: 122px;
+    margin-right: 20px;
+}
+
+nav{
+    height: 122px;
+    display: flex;
+    align-items: center;
+}
+
+.first {
+    display: flex;
+    justify-content: right;
+    list-style: none; 
+    padding-left: 0; 
+}
+
+/*main*/
+.how{
+    background-image:url('../images/фон.jpeg');
+    padding-top: 150px;
+   color:white;
+   padding-left: 150px;
+}
+.howtext{
+    padding-bottom: 120px;
+    font-size:25px;
+    font-weight: 600;
+    text-align: center;
+}
+.howtext::first-letter{
+    font-size:40px;
+    color:#1795e9;
+}
+.why p{
+    text-align: center;
+    font-size:25px;
+    font-weight: 400;
+}
+.why h1{
+    padding-top: 30px;
+    text-align: center;
+}
+.help p{
+    text-align: center;
+    font-size:25px;
+    font-weight: 400;
+}
+.help h1{
+    padding-top: 30px;
+    text-align: center;
+}
+.veb p{
+    text-align: center;
+    font-size:25px;
+    font-weight: 400;
+}
+.veb h1{
+    padding-top: 30px;
+    text-align: center;
+}
+
+/*анимации*/
+.menu:hover{
+    transform: scale(1.5);
+}
+.ss:hover{
+    transform: scale(1.2);
+}
+/*command*/
+.vk:first-child:hover{
+    transform: scale(1.5);
+}
+.vk:last-child:hover{
+    transform: scale(1.5);
+}
+.vk:nth-child(2n):hover{
+    transform: scale(1.5);
+}
+.vk:nth-child(3n):hover{
+    transform: scale(1.5);
+}
+.vk:nth-child(4n):hover{
+    transform: scale(1.5);
+}
+
+/* footer */
+footer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 70px;
+}
+
+.miniLogo{
+    width: 73px;
+    height: 43px;
+    float: left;
+    margin-right: 20px;
+}
+
+.textFooter {
+    display: flex;
+    flex-direction: column;
+    padding-left: 80px;
+}
+
+.footerP{
+    color: #504D4D;
+    font-weight: 900;
+}
+
+span{
+    color: red;
+    font-size: 28px;
+    padding: 2px solid;
+}
+.btn{
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.bbt{
+    background-color:antiquewhite;
+    color:rgb(82, 70, 70);
+    border: 2px dotted;
+    padding:12px;
+    margin-right: 0;
+    padding-top: 20px;
+    display: flex;
+    flex-direction:row;
+    justify-content:space-around
+}
+.ss{
+    text-decoration: none;
+    font-weight: 400;
+    color: #00acee;
+    font-size: 25px;
+    margin-right: 0;
+}
+.harrd{
+    text-align: center;
+    padding-right: 30px;
+    font-size: 25px;
+    
+}
+.dct{
+    font-size: 50px;
+    color: #FF4A84;
+    
+}
+.vk{
+    text-align: center;
+    padding-right: 30px;
+    text-decoration: none;
+    list-style: none;
+    padding-left: 35px;
+    display: inline-block;
+    font-weight: 700;
+}
+.v{
+    color:#00acee;
+    transition: all 2s;
+}
+.v:hover{
+    transform: scale(1.2);
+}
+.med{
+    font-family: 'Balsamiq Sans', cursive;
+    text-align: center;
+    font-size: 25px;
+
+}
+.school{
+    font-family: 'Balsamiq Sans', cursive;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 25px;
+}
+.about{
+    background-image:url("../images/фон2.jpg");
+    text-align: center;
+}
+.about h1{
+    font-family: 'Overpass Mono', monospace;
+    font-size: 75px;
+    font-weight: 500;
+    
+}
+.info{
+    font-size: 20px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+.info p{
+    text-align: center;
+}
+img{
+    width: 30px;
+}
+.photo{
+    text-align: center;
+}
+.i{
+    width: 100px;
+}
